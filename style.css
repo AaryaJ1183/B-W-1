@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22, 22, 23);
+    font-family: sans-serif;
+    overflow-x:hidden;
+}
+
+.intro 
+{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+.intro video{
+    height:100vh;
+    width:100vw;
+    object-fit: cover;
+}
+
+.bnwText{
+    position: absolute;
+    font-size: 100px;
+}
+
+section{
+    height:100vh;
+    background-color: whitesmoke;
+    display: grid;
+    place-items: center;
+}
+
+section h1{
+    color:black;
+}
